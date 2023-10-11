@@ -200,8 +200,9 @@ letter-spacing: 0.02em;
 }
 .features-list{
 display: flex;
-flex-wrap: wrap;
-gap: 24px;
+
+flex-direction: column;
+gap: 72px;
 
 
 }
@@ -811,7 +812,7 @@ rgba(46, 47, 66, 0.4);
     color: #4D5AE5;
     text-decoration-line: underline;
 }
-@media screen and (min-width: 320px)  {
+/* @media screen and (min-width: 320px)  {
     .container {
         max-width: 288px;
         padding: 0 16px 0 16px;
@@ -823,7 +824,7 @@ rgba(46, 47, 66, 0.4);
     .features-item{
         width: 100%;
     }
-}
+} */
 
 @media screen and (min-width: 768px) {
     .container {
@@ -831,7 +832,7 @@ rgba(46, 47, 66, 0.4);
         padding: 0 16px 0 16px;
     }
     .features-list {
-        gap: 24px 72px;
+        gap: 24px;
         flex-direction: row; 
         flex-wrap: wrap;
     }
