@@ -89,7 +89,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 120px;
-  flex-shrink: 0;
+  
 }
 .header-list-link {
   color: #2e2f42;
@@ -585,7 +585,7 @@ margin: 0 auto;
 .subscribe-form {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 /* =======Модальне вікно========= */
@@ -934,8 +934,10 @@ letter-spacing: 0.05em;
   }
   /** SECTION 3 **/
   .our-team{
-    max-width: 584px;
-    margin-left: 108px;
+    /* max-width: 584px;
+    margin-left: 108px; */
+
+    padding: 0 92px;
   }
   .our-team-list {
     justify-content: flex-start;
@@ -957,8 +959,10 @@ letter-spacing: 0.05em;
     flex-wrap: wrap;
     /* flex-basis: calc((100% - 24px) / 2);
     gap: 24px; */
-    gap: 72px 24px;
-    max-width: 584px;
+    /* gap: 72px 24px; */
+    gap: 0;
+    /* max-width: 584px; */
+    padding: 0 92px;
 }
 .footer-text{
     max-width: 264px;
@@ -1045,7 +1049,7 @@ letter-spacing: 0.05em;
   }
   /** SECTION 3 **/
   .our-team{
-    max-width: 1158px;
+    /* max-width: 1158px; */
     margin-left: 0px;
   }
   .our-team-list {
@@ -1078,7 +1082,7 @@ letter-spacing: 0.05em;
     display: flex;
     align-items: baseline;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     max-width: 1158px;
     flex-wrap: nowrap;
 }
@@ -1088,23 +1092,23 @@ letter-spacing: 0.05em;
 .subscribe-form{
     flex-direction: row;
 }
-/* .footer-left-div {
+.footer-left-div {
   margin-right: 120px;
   
-} */
+}
 .footer-link{
   display: inline-block;
 }
 .footer-social{
-  /* margin-right: 80px; */
+  margin-right: 80px;
   text-align: start;
 }
 .subscribe-input{
   max-width: 264px;
 }
-.footer-input-text{
+/* .footer-input-text{
   text-align: center;
-} 
+}  */
 
 }
 /* for desctop */
