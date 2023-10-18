@@ -1085,6 +1085,7 @@ letter-spacing: 0.05em;
     /* justify-content: space-around; */
     max-width: 1158px;
     flex-wrap: nowrap;
+    padding: 0 15px;
 }
 .footer-text{
     width: 264px;
