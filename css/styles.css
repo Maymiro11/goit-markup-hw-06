@@ -937,7 +937,10 @@ letter-spacing: 0.05em;
     /* max-width: 584px;
     margin-left: 108px; */
 
-    padding: 0 92px;
+    /* padding: 0 92px; */
+  }
+  .our-team-container{
+    max-width: 584px;
   }
   .our-team-list {
     justify-content: flex-start;
@@ -960,9 +963,9 @@ letter-spacing: 0.05em;
     /* flex-basis: calc((100% - 24px) / 2);
     gap: 24px; */
     /* gap: 72px 24px; */
-    gap: 0;
-    /* max-width: 584px; */
-    padding: 0 92px;
+    gap: 0 24px;
+    max-width: 584px;
+    /* padding: 0 92px; */
 }
 .footer-text{
     max-width: 264px;
@@ -1080,12 +1083,13 @@ letter-spacing: 0.05em;
 /* Footer */
 .footer-container{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: center; 
     max-width: 1158px;
     flex-wrap: nowrap;
     padding: 0 15px;
+    gap: 0;
 }
 .footer-text{
     width: 264px;
